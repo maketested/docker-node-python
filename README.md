@@ -1,3 +1,3 @@
-# Node-Python Docker Image
+# Docker Image: Node + Python
 
-Based on https://bitbucket.org/byndops/bitbucket-node-python-docker
+https://hub.docker.com/r/maketested/node-python/
