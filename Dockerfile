@@ -7,3 +7,9 @@ RUN wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tgz && \
     ./configure && \
     make -j8 && \
     make install
+
+# Install pipenv
+ENV LC_ALL C.UTF-8
+ENV LANG C.UTF-8
+RUN python3.6 -m pip install pipenv && \
+    pipenv --version
